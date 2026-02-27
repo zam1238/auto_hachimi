@@ -11,6 +11,7 @@ Value: 你刚生成的 GitHub Token
 账号,密码
 ### 多账号格式（每行一个）
 账号1,密码1
+
 账号2,密码2
 ### 带 Telegram 通知格式
 账号,密码,TG_TOKEN,TG_CHATID

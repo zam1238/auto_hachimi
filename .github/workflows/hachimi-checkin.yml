@@ -33,11 +33,11 @@ jobs:
         run: mkdir -p ${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ env.PROJECT_DIR }}
         working-directory: .
       
-      # 步骤 2: 检出私有仓库
+      # 步骤 2: 检出私有仓库 40行改成私库自己的名字
       - name: 🔐 检出私有仓库
         uses: actions/checkout@v4
         with:
-          repository: sevfat/auto_hachimi_private
+          repository: zam1238/hachimi
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           ref: main
           path: ${{ github.repository_owner }}-${{ github.event.repository.name }}-${{ env.PROJECT_DIR }}

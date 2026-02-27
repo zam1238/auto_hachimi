@@ -1,5 +1,12 @@
 # 🔄 Hachimi Auto Checkin
+
+### 🔐 1. PRIVATE_REPO_TOKEN（必须）
+
+Name: PRIVATE_REPO_TOKEN
+Value: 你刚生成的 GitHub Token
+
 ### 带 Telegram 通知格式
+# HACHIMI_BATCH
 
 ```
 账号,密码,TG_TOKEN,TG_CHATID
